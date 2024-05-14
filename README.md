@@ -1,6 +1,7 @@
 # Project Overview
 
 This project uses _Tensorflow_, _Sci-kit Learn_, _Pandas_, and _NumPy_ to perform multi-class classification of Forest Covers using a deep feed-forward neural network.
+
 The categories that it is classified into are Spruce/Fir, Lodgepole Pine, Ponderosa Pine, Cottonwood/Willow, Aspen, Douglas-fir, Krummholz.
 
 The provided dataset contains cartographic variables that pertain to different forest cover types. In order to be used for training and prediction, it must be run through a series of pre-processing tasks to make it viable for use by the neural network. Initially, it is split into feature and label datasets, containing raw data, and prediction attributes respectively. Using scikit-learn, each is then split further into training and validation datasets, to train the neural network. 
