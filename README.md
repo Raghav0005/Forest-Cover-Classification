@@ -1,1 +1,1 @@
-Forest Cover Classification performed with a neural network developed with Tensorflow
+This project uses Tensorflow, Pandas, and NumPy to perform multi-class classification of Forest Covers usingf a deep feed-forward neural network.
